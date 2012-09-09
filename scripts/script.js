@@ -5,6 +5,9 @@
 		progress = document.querySelector('div.progress div'),
 		slideList = [],
 		l = slides.length, i;
+	if (typeof keysalive === 'undefined') {
+		keysalive = true;
+	}
 
 	for (i = 0; i < l; i++) {
 		slideList.push({
@@ -12,7 +15,6 @@
 			hasInnerNavigation: null !== slides[i].querySelector('.inner')
 		});
 	}
-
 	function getTransform() {
 		var denominator = Math.max(
 			body.clientWidth / window.innerWidth,
@@ -58,7 +60,7 @@
 
 		var currentSlide = document.getElementById(slideList[slideNumber].id);
 
-		if (null != currentSlide) {
+		if (null !== currentSlide) {
 			window.scrollTo(0, currentSlide.offsetTop);
 		}
 	}
@@ -144,7 +146,7 @@
 		if (window.console && slideList[slideNumber]) {
 			var notes = document.querySelector('#' +slideList[slideNumber].id + ' .notes');
 			if (notes) {
-				console.info(notes.innerHTML.replace(/\n\s+/g,'\n'))
+				console.info(notes.innerHTML.replace(/\n\s+/g,'\n'));
 			}
 			if (slideList[slideNumber+1]) {
 				var next = document.querySelector('#' +slideList[slideNumber + 1].id + ' header');
@@ -186,6 +188,7 @@
 	}, false);
 
 	document.addEventListener('keydown', function (e) {
+		if (!keysalive) { return; }
 		// Shortcut for alt, shift and meta keys
 		if (e.altKey || e.ctrlKey || e.metaKey) { return; }
 

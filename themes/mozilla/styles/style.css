@@ -135,6 +135,20 @@ body:after {
 		counter-increment:list;
 		content:counter(list)'.';
 		}
+  /* Inner navigation */
+  .inner li {
+    opacity: 0.05;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    transition: opacity 1s;
+	  }
+  .inner .active {
+    opacity: 1;
+  }
+
+
 
 /* Code */
 .slide pre {
@@ -442,6 +456,10 @@ body:after {
 	}
 .right {
 	float: right;
+	}
+.left {
+	float: left;
+	padding-right: 80px;
 	}
 .credits {
 	font-size: 10px;
