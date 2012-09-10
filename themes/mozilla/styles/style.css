@@ -545,6 +545,7 @@ blockquote .quotesource {
 	font-size: 12px;
 	position: absolute;
 	bottom: 40px;
+	left: 120px;
 	}
 .demourl {
 	font-size: 18px;
