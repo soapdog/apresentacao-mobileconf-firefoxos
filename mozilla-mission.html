@@ -1,125 +1,12 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html lang="en-US" class="fade">
 <head>
   <title>{title}</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1274, user-scalable=no">
   <link rel="stylesheet" href="themes/mozilla/styles/style.css">
   <style type="text/css">
-    h1,h2 { font-weight: normal; }
-    h2 span {
-      display: block;
-      font-size: 20px;
-    }
-    .full .slide { background:url(themes/mozilla/images/bg-sandstone-2.png); }
-    #cover .byline {
-      bottom: 80px;
-      top: auto;
-      right: 140px;
-      width: auto;
-      padding: 5px 10px;
-    }
-    #cover h2 { padding-left: 30px; }
-    #word, #wordvalue {
-      letter-spacing: 5px;
-      width: 500px;
-      text-transform: uppercase;
-      font-family: inherit;
-      font-size: 60px;
-      color: #333;
-      padding: 5px 10px;
-      border: none;
-      background: transparent;
-      border-bottom: 2px solid #666;
-    }
-    #wordvalue { border: none; }
-    #word:focus { outline: 0; }
-    .full .slide section {
-      -moz-transition: opacity 1s;
-      -webkit-transition: opacity 1s;
-      opacity: 0;
-    }
-    .full .slide:target section { opacity: 1; }
-    .full .slide:target figure.middle {
-      -moz-animation: swing linear 2s infinite;
-      -moz-transform-origin: 0 -55%;
-      -webkit-animation: swing ease-in-out 2s infinite;
-      -webkit-transform-origin: 0 -55%;
-      -o-animation: swing ease-in-out 20s infinite;
-      -o-transform-origin: 0 -55%;
-      animation: swing ease-in-out 20s infinite;
-      transform-origin: 0 -55%;
-      box-shadow: 5px 10px 10px rgba(0,0,0,.35);
-    }
-    .middle img { border: 5px solid #f8f8f8; z-index: 2; display: block; }
-    .middle::after {
-      content: '';
-      display: block;
-      position: absolute;
-      top: -10px;
-      left: 50%;
-      margin-left: -10px;
-      width: 20px;
-      height: 20px;
-      -webkit-transform: rotate(45deg);
-      -moz-transform: rotate(45deg );
-      transform: rotate(45deg);
-      border-style: solid;
-      border-color: #666;
-      border-width: 1px 0 0 1px;
-    }
-    .middle::before {
-      content: '';
-      display: block;
-      width: 5px;
-      height: 5px;
-      background-image: 
-        -webkit-linear-gradient(top, #f1f1f1 0%, #333 80%, #000 95%);
-      background-image:
-        -moz-linear-gradient(to bottom, #f1f1f1 0%, #333 80%, #000 95%);
-      background-image: 
-        linear-gradient(to bottom, #f1f1f1 0%, #333 80%, #000 95%);
-      border-radius: 50%;
-      border: 1px solid #666;
-      position: absolute;
-      top: -15px;
-      left: 50%;
-      margin-left: -3px;
-    }
-    p.demourl { bottom: 0; margin: 0 0 10px 0; }
-    .slide section { padding: 40px 120px; }
-    ul.demourl li { display: inline; padding-right: 1em; }
-    ul.demourl li::before, ul.inner li::before { content: '';}
-    .full .cover:target .middle {
-      -moz-animation: none;
-      -webkit-animation: none;
-      -o-animation: none;
-      animation: none;
-    }
-    @-moz-keyframes swing {
-      0%   { -moz-transform: rotate3d(0deg,0,0) translate3d(-50%, -50%, 0); }
-      25%  { -moz-transform: rotate(3deg) translate(-50%, -50%); }
-      50%  { -moz-transform: rotate(0deg) translate(-50%, -50%); }
-      75%  { -moz-transform: rotate(-3deg) translate(-50%, -50%); }
-      100% { -moz-transform: rotate(0deg) translate(-50%, -50%); }
-    }
-    @-webkit-keyframes swing {
-      0%   {-webkit-transform: rotate(-3deg) translate(-50%, -50%); }
-      50%  {-webkit-transform: rotate(3deg) translate(-50%, -50%); }
-      100% {-webkit-transform: rotate(-3deg) translate(-50%, -50%); }
-    }
 
-    @-o-keyframes swing {
-      0%   { -o-transform: rotate(-3deg) translate(-50%, -50%); }
-      50%  { -o-transform: rotate(3deg) translate(-50%, -50%); }
-      100% { -o-transform: rotate(-3deg) translate(-50%, -50%); }
-    }
-    @keyframes swing {
-      0%   { transform: rotate(-3deg) translate(-50%, -50%); }
-      50%  { transform: rotate(3deg) translate(-50%, -50%); }
-      100% { transform: rotate(-3deg) translate(-50%, -50%); }
-    }
-    blockquote { font-size: 40px;}
   </style>
 </head>
 <body class="list">
@@ -250,11 +137,11 @@ after the Mission intro and the before the call to action  & Q&A</p>
       <header>
         <h2>Thanks</h2>
       </header>
-      <figure class="middle">
-        <img src="pictures/redpanda.jpg"
+        <figure class="frame middle swing">
+        <img src="pictures/mozillaoverview/redpanda.jpg" 
              alt="Red panda (Firefox)">
-      </figure>
-      <ul class="demourl">
+        </figure>
+      <ul class="oneline demourl">
         <li>{name}</li>
         <li><a href="http://twitter.com/">{twitter}</a></li>
         <li><a href="{slideurl}">
