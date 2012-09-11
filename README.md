@@ -1,83 +1,54 @@
-# Shower
-Сross-browser presentation template.
+# Mozilla Evangelism Reps shower 
 
-* Open [pepelsbey.github.com/shower/en.htm](http://pepelsbey.github.com/shower/en.htm)
-* Click any slide to enter presentation mode
-* Use arrow keys to navigate
-* Press `Esc` to exit presentation mode
+This is the HTML5 slide deck system created to make it easier for Mozilla evangelism reps to get started with their presentations. 
 
-Or use just a keyboard to navigate:
+* Based on [@pepelsbey](http://twitter.com/pepelsbey)'s original shower system available on [https://github.com/pepelsbey/shower](https://github.com/pepelsbey/shower)
+* Licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License), see [license page](https://github.com/pepelsbey/shower/wiki/License-En) for details.
 
-* Press right arrow key to select first slide
-* Press `Enter` to enter presentation mode
-* Press `Esc` to exit presentation mode
+## Enhancements
 
-Follow [shower_me](http://twitter.com/shower_me/) on Twitter for updates.
+* Speaker notes using console.log()
+* Smooth transitions between slides
+* Option to turn off slide numbers
+* left/right placement of images
+* Image frames / swinging animation
 
-## Supported Browsers
+## How to use 
 
-* Desktop platforms: Chrome, Firefox, Opera, Safari
+The way to present these slides is explained in detail [in this screencast](http://www.youtube.com/watch?v=5xBfy8mN1iQ)
 
-Only latest stable versions of mentioned browsers are supported.
+## Editing slides
 
-## Planned Support
+The mozilla-example.html file contains all the possible slides the system supports. Simply copy the ones you need and delete the others. There are also comments to explain the global switches for the system.
 
-* Desktop platforms: IE10
-* Mobile platforms: Mobile Safari, Opera Mobile
+### General edits to the slide system
 
-Please address bugs and your suggestions to [Issues](http://github.com/pepelsbey/shower/issues).
+There are a few things you can change in the overall document:
 
-## Usage examples
+* Smooth transitions - by default there is a one second transition using opacity for fading in between slides. This is triggered by the class "fade" on the HTML elements. If you remove it, slides just pop from one to another.
+* Progress bar - the progress bar can be removed by deleting the DIV with the class "progress" at the bottom of the document
+* Slide numbers - if you want to remove the slide numbers, add a class of "nonumbers" to the HTML element
 
-* [CSS Management](http://pepelsbey.net/pres/css-management/)
-* [Dynamic Graphics](http://pepelsbey.net/pres/dynamic-graphics/)
-* [Sense Coding](http://pepelsbey.net/pres/sense-coding/)
-* [Special Effects Tea](http://pepelsbey.net/pres/special-effects-tea/)
-* [Web In Curves](http://pepelsbey.net/pres/web-in-curves/)
-* [Play Framework](http://spinscale.github.com/play-advanced-concepts.html)
-* [Flash -> HTML5](http://batsuev.com/bif2011/)
+### Slides
 
-Licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License), see [license page](shower/wiki/License-En) for details.
+* Each slide needs a unique ID and the class of slide to be recognised by the system and to be navigated to.
+* Each slide has a header and a footer - the presenter notes go into the footer of the slide. They are not shown by default. You can roll over the slides in list view to see them and during presenting they'll be shown in the debugging console of the browser.
+* Each slide needs a H2 header to show as the "NEXT" information in the speaker note display.
 
----
+### Lists
 
-# Shower
-Кроссбраузерный шаблон для презентаций
+You can control the display of lists by adding various classes to the UL element:
 
-* Откройте [pepelsbey.github.com/shower/ru.htm](http://pepelsbey.github.com/shower/ru.htm)
-* Кликните по любому слайду для перехода в режим презентации
-* Используйте клавиши со стрелками для навигации
-* Нажмите `Esc` для выхода из режима презентации
+* "longlist" applies a smaller font so that you can add more items
+* "inline" turns the list into comma separated words followed by a full stop.
+* "oneline" puts all list items on one line
+* "inner" adds in-slide navigation to the list. You need to set a class of "active" to the first LI to show the items one by one rather than all at the same time
 
-Или используте для навигации клавиатуру:
+### Images
 
-* Нажмите стрелку вправо для выбора первого слайда
-* Нажмите `Enter` для входа в режим презентации
-* Нажмите `Esc` для выхода из режима презентации
-
-Читайте новости [shower_me](http://twitter.com/shower_me/) в Твиттере.
-
-## Поддерживаемые браузеры
-
-* Десктопные: Chrome, Firefox, Opera, Safari
-
-Поддеживаются только последние стабильные версии указанных браузеров.
-
-## Планируемая поддержка
-
-* Десктопные: IE10
-* Мобильные: Mobile Safari, Opera Mobile
-
-Сообщения об ошибках и пожелания оставляйте в разделе [Issues](http://github.com/pepelsbey/shower/issues).
-
-## Примеры использования
-
-* [CSS-менеджмент](http://pepelsbey.net/pres/css-management/)
-* [Динамическая графика](http://pepelsbey.net/pres/dynamic-graphics/)
-* [Вёрстка со смыслом](http://pepelsbey.net/pres/sense-coding/)
-* [Чай со спецэффектами](http://pepelsbey.net/pres/special-effects-tea/)
-* [Веб в кривых](http://pepelsbey.net/pres/web-in-curves/)
-* [Play Framework](http://spinscale.github.com/play-advanced-concepts.html)
-* [Flash -> HTML5](http://batsuev.com/bif2011/)
-
-Лицензировано под [лицензией MIT](http://ru.wikipedia.org/wiki/Лицензия_MIT), читайте подробнее [на странице лицензии](shower/wiki/License-Ru).
+* Adding a class of "middle", "left" or "right" to any IMG element positions it on the screen. 
+* Slides with a class of "cower" will show the image as a background with the headings becoming white with a half-opaque black background. You can add a "w" or "h" class to the slide to fit the background image to the width or the height respectively.
+* Adding a FIGURE element around the image allows you to add extra features by adding one or more of the following classes to the FIGURE:
+** Adding a "shadow" class gives it a drop shadow. 
+** Adding a "frame" class makes the image look like it is hanging from a nail
+** Adding a "swing" class adds an animation to dangle it from the nail.
