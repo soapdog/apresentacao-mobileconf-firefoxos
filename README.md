@@ -49,6 +49,6 @@ You can control the display of lists by adding various classes to the UL element
 * Adding a class of "middle", "left" or "right" to any IMG element positions it on the screen. 
 * Slides with a class of "cower" will show the image as a background with the headings becoming white with a half-opaque black background. You can add a "w" or "h" class to the slide to fit the background image to the width or the height respectively.
 * Adding a FIGURE element around the image allows you to add extra features by adding one or more of the following classes to the FIGURE:
-** Adding a "shadow" class gives it a drop shadow. 
-** Adding a "frame" class makes the image look like it is hanging from a nail
-** Adding a "swing" class adds an animation to dangle it from the nail.
+- Adding a "shadow" class gives it a drop shadow. 
+- Adding a "frame" class makes the image look like it is hanging from a nail
+- Adding a "swing" class adds an animation to dangle it from the nail.
