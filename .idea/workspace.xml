@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1378c3-16ff-4454-9d4f-842781e9cf61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/riojs/B2G.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/riojs/devtools-console.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/riojs/devtools-inspect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/riojs/devtools-responsiveview.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/riojs/devtools-simulator.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firefoxos-riojs.html" afterPath="$PROJECT_DIR$/firefoxos-riojs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mozilla-presentation.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362621405143" ignored="false" />
     <file path="/mozilla-mission.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362756598204" ignored="false" />
     <file path="/dummy.xml" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362782285648" ignored="false" />
-    <file path="/firefoxos-riojs.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362783493358" ignored="false" />
+    <file path="/firefoxos-riojs.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362785019246" ignored="false" />
     <file path="/a.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362783357884" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +33,7 @@
       <file leaf-file-name="firefoxos-riojs.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="20" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.74533105">
+            <state line="75" column="26" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.7385399">
               <folding>
                 <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -350,7 +344,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="20" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.74533105">
+        <state line="75" column="26" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.7385399">
           <folding>
             <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
