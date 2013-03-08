@@ -53,6 +53,45 @@
             float: left;
             width: 50%;
         }
+
+        .direita {
+            float: right;
+        }
+
+        .centro {
+            text-align: center;
+            float: right;
+        }
+        .box {
+            text-align: left;
+            color: white;
+            width: 60%;
+            height: auto;
+            padding: 15px;
+        }
+
+        .box > h2 {
+            font-size: 0.7em;
+        }
+
+        .box > p {
+            font-size: 0.6em;
+        }
+
+        .gaia {
+            background-color: darkorange;
+        }
+        .gecko {
+            background-color: indianred;
+        }
+
+        .gonk {
+            background-color: darkgrey;
+        }
+
+
+
+
     </style>
 </head>
 <body class="list">
@@ -90,21 +129,12 @@
         uma comunidade global de pessoas que acreditam que <strong>abertura</strong>, <strong>inova&ccedil;&atilde;o</strong>, e <strong>oportunidade</strong> são fatores fundamentais para o bem estar da Internet.
       </blockquote>
       <footer class="notes">
+          uma comunidade global de pessoas que acreditam que abertura, inova&ccedil;&atilde;o, e oportunidade são fatores
+          fundamentais para o bem estar da Internet.
       </footer>
     </section>
   </div></div>
 
-
-
-  <div id="test" class="slide">
-      <div>
-          <section>
-              <header>
-                  <h2></h2>
-              </header>
-          </section>
-      </div>
-  </div>
 
   <div id="firefox" class="slide"><div>
     <section>
@@ -113,6 +143,7 @@
       </header>
         <img src="themes/mozilla/images/Fx-logo.png" class="middle" width="400" alt="Firefox">
       <footer class="notes">
+          Lembrar o Firefox e o por que ele foi e é necessário.
       </footer>
     </section>
   </div></div>
@@ -133,17 +164,42 @@
     </section>
   </div></div>
 
-  <div id="yourslides" class="slide"><div>
+  <div id="o-que-eh-o-firefox-os" class="slide"><div>
     <section>
       <header>
         <h2>O Que é o Firefox OS?</h2>
       </header>
+      <img src="pictures/riojs/b2g-gecko.png" class="right" />
       <p>O Firefox OS é um <strong>novo sistema operacional móvel</strong> desenvolvido pelo projeto Boot to Gecko (B2G) da
         Mozilla. Ele usa o Kernel do Linux e inicializa em um sistema baseado no Gecko que permite
         que os usuários utilizem <strong>apps inteiramente desenvolvidos utilizando HTML, Javascript e outras APIs da Web Aberta</strong>.</p>
       <footer class="notes">
       </footer>
     </section>
+  </div></div>
+
+  <div id="gonk-gecko-gaia" class="slide"><div>
+      <section>
+          <header>
+              <h2>Arquitetura do Firefox OS</h2>
+          </header>
+          <div class="centro">
+              <div class="gaia box">
+                  <h2>Gaia</h2>
+                  <p>Coleção de aplicativos web que fazem a UI</p>
+              </div>
+              <div class="gecko box">
+                  <h2>Gecko</h2>
+                  <p>Motor de JS e Renderização de HTML, APIs amigáveis para acesso ao hardware</p>
+              </div>
+              <div class="gonk box">
+                  <h2>Gonk</h2>
+                  <p>Kernel Linux, Device drivers e camada de abstração do hardware</p>
+              </div>
+          </div>
+          <footer class="notes">
+          </footer>
+      </section>
   </div></div>
     
     <div id="demo1" class="slide"><div>
@@ -162,7 +218,7 @@
           <header>
               <h2>Ferramentas do Desenvolvedor</h2>
           </header>
-          <p>Incluir dev tools</p>
+          <img src="pictures/riojs/devtools-inspect.png" class="middle" style="height: 80%;"/>
           <footer class="notes">
               Mostrar as ferramentas de desenvolvimento. Principalmente o console e o responsive web view.
           </footer>
@@ -174,7 +230,7 @@
           <header>
               <h2>Responsive View</h2>
           </header>
-          <p>Incluir responsive view</p>
+          <img src="pictures/riojs/devtools-responsiveview.png" class="middle" style="height: 80%;"/>
           <footer class="notes">
           </footer>
       </section>
@@ -185,7 +241,7 @@
           <header>
               <h2>Javascript Console</h2>
           </header>
-          <p>Incluir console</p>
+          <img src="pictures/riojs/devtools-console.png" class="middle" style="height: 80%;"/>
           <footer class="notes">
           </footer>
       </section>
@@ -196,7 +252,8 @@
           <header>
               <h2>Firefox OS Simulator</h2>
           </header>
-         <p>Incluir simulador do firefox</p>
+          <img src="pictures/riojs/B2G.png" class="middle" style="height: 80%;"/>
+          <p class="demourl"><a href="https://hacks.mozilla.org/2012/12/firefox-os-simulator-1-0-is-here/">Firefox OS Simulator 1.0</a></p>
           <footer class="notes">
               O simulador ja esta disponível e é tudo que você precisa junto com as dev tools para criar apps.
           </footer>
@@ -442,7 +499,7 @@
           <header>
               <h2 style="text-align:center">Dando controle para o usuário</h2>
           </header>
-          <img src="pictures/moosecon/pick-activity.jpg" alt="Pick activity" class="middle shadow">
+          <img src="pictures/riojs/shots/pick-image.png" alt="Pick activity" class="middle shadow">
           <footer class="notes">
               Quando iniciamos uma Web Activity, o usuário recebe um aviso para autorizá-la.
               Por exemplo a atividade "pick" pode pedir imagens da pasta de images, da pasta de papéis de parede ou tirar uma nova foto.
@@ -453,6 +510,10 @@
           </footer>
       </section>
   </div></div>
+
+
+
+
 
   <div id="callactivity" class="slide"><div>
       <section>
@@ -565,9 +626,6 @@
         <li><a href="http://andregarzia.com">http://andregarzia.com</a></li>
         <li><a href="http://twitter.com/soapdog">@soapdog</a></li>
           <li><a href="http://mozillabrasil.org.br">http://mozillabrasil.org.br</a></li>
-          <li><a href="{slideurl}">
-          {slideurl}
-        </a></li>
       </ul>
       <small class="credits">
         <a href="http://www.flickr.com/photos/yortw/5798336827/">

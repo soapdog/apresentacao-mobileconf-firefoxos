@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1378c3-16ff-4454-9d4f-842781e9cf61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firefoxos-riojs.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mozilla-mission.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/riojs/B2G.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/riojs/devtools-console.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/riojs/devtools-inspect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/riojs/devtools-responsiveview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/riojs/devtools-simulator.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firefoxos-riojs.html" afterPath="$PROJECT_DIR$/firefoxos-riojs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mozilla-presentation.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362621405143" ignored="false" />
-    <file path="/mozilla-mission.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362694796670" ignored="false" />
-    <file path="/dummy.xml" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362694096782" ignored="false" />
-    <file path="/firefoxos-riojs.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362694782016" ignored="false" />
+    <file path="/mozilla-mission.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362756598204" ignored="false" />
+    <file path="/dummy.xml" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362782285648" ignored="false" />
+    <file path="/firefoxos-riojs.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362783493358" ignored="false" />
+    <file path="/a.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362783357884" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +39,12 @@
       <file leaf-file-name="firefoxos-riojs.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="564" column="67" selection-start="21691" selection-end="21691" vertical-scroll-proportion="0.7198642">
+            <state line="67" column="20" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.74533105">
               <folding>
+                <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#19;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#20;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -130,6 +140,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mozilla-presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mozilla-presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pictures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="riojs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mozilla-presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mozilla-presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pictures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -137,7 +179,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="appearance" />
+    <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -153,6 +195,11 @@
         </serverdata>
       </server>
     </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pictures/riojs" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -270,6 +317,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
           <folding>
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#19;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#20;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -280,6 +331,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="20" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
           <folding>
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#19;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#20;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -295,8 +350,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="564" column="67" selection-start="21691" selection-end="21691" vertical-scroll-proportion="0.7198642">
+        <state line="67" column="20" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.74533105">
           <folding>
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#19;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#20;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
