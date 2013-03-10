@@ -6,13 +6,30 @@
     </list>
     <ignored path="mozilla-presentation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362785917979" ignored="false" />
+    <file path="/Dummy.txt" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362851538070" ignored="false" />
     <file path="/mozilla-mission.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362756598204" ignored="false" />
-    <file path="/dummy.xml" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362782285648" ignored="false" />
-    <file path="/firefoxos-riojs.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362785019246" ignored="false" />
-    <file path="/a.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362783357884" ignored="false" />
+    <file path="/dummy.xml" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362833427060" ignored="false" />
+    <file path="/firefoxos-riojs.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362833427060" ignored="false" />
+    <file path="/a.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362833459208" ignored="false" />
     <file path="$PROJECT_DIR$/../riojs-exemplo/.gitignore" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362786266136" ignored="false" />
     <file path="/.gitignore" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362786266136" ignored="false" />
+    <file path="$USER_HOME$/prog/newsite/package.json" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362792432075" ignored="false" />
+    <file path="$USER_HOME$/prog/newsite/src/documents/styles/custom.css" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362793188471" ignored="false" />
+    <file path="$USER_HOME$/prog/newsite/src/layouts/default.html.eco" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362798116992" ignored="false" />
+    <file path="/default.html.eco" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362798116992" ignored="false" />
+    <file path="$USER_HOME$/prog/newsite/out/atom.xml" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362833308366" ignored="false" />
+    <file path="$USER_HOME$/prog/newsite/out/crossdomain.xml" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362833308366" ignored="false" />
+    <file path="$PROJECT_DIR$/../riojs-exemplo/source/App.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835642606" ignored="false" />
+    <file path="/App.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835636205" ignored="false" />
+    <file path="$PROJECT_DIR$/../riojs-exemplo/manifest.webapp" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835436603" ignored="false" />
+    <file path="/manifest.webapp" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835420380" ignored="false" />
+    <file path="$PROJECT_DIR$/../riojs-exemplo/source/package.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835614908" ignored="false" />
+    <file path="$PROJECT_DIR$/../riojs-exemplo/build/app.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835892951" ignored="false" />
+    <file path="$PROJECT_DIR$/../riojs-exemplo/deploy/riojs-exemplo/build/app.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835892951" ignored="false" />
+    <file path="$PROJECT_DIR$/../riojs-exemplo/index.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836247198" ignored="false" />
+    <file path="/index.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836247198" ignored="false" />
+    <file path="/debug.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836257639" ignored="false" />
+    <file path="$PROJECT_DIR$/../riojs-exemplo/debug.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836257639" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +52,7 @@
       <file leaf-file-name="firefoxos-riojs.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="26" selection-start="1727" selection-end="1727" vertical-scroll-proportion="1.910017">
+            <state line="77" column="0" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.15267175">
               <folding>
                 <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -75,7 +92,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="774" />
+    <option name="height" value="578" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -103,7 +120,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -112,15 +128,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mozilla-presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="riojs-apresentacao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../riojs-exemplo" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -170,14 +197,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="578" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15640195" sideWeight="0.9960212" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16126418" sideWeight="0.9960212" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -270,6 +297,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="26" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#19;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#20;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="26" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#19;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#20;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -303,7 +358,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="26" selection-start="1727" selection-end="1727" vertical-scroll-proportion="1.910017">
+        <state line="77" column="0" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.15267175">
           <folding>
             <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
