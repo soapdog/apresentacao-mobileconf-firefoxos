@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1378c3-16ff-4454-9d4f-842781e9cf61" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="mozilla-presentation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,6 +30,7 @@
     <file path="/index.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836247198" ignored="false" />
     <file path="/debug.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836257639" ignored="false" />
     <file path="$PROJECT_DIR$/../riojs-exemplo/debug.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836257639" ignored="false" />
+    <file path="/README.md" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362927437147" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +50,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="firefoxos-riojs.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="firefoxos-riojs.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="0" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.15267175">
+            <state line="77" column="0" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-2.5">
               <folding>
                 <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -61,6 +62,15 @@
                 <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#19;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#20;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.107913665">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,6 +95,7 @@
       <list>
         <option value="$PROJECT_DIR$/mozilla-mission.html" />
         <option value="$PROJECT_DIR$/firefoxos-riojs.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -358,7 +369,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.15267175">
+        <state line="77" column="0" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-2.5">
           <folding>
             <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#section#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -367,6 +378,13 @@
             <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#19;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#header#0;n#section#0;n#div#0;n#div#20;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.107913665">
+          <folding />
         </state>
       </provider>
     </entry>
