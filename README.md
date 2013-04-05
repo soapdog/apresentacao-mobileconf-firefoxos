@@ -1,4 +1,4 @@
-## Apresentação realizada no Rio.JS em 9 de Março de 2013
+## Apresentação realizada na MobileConf em 5 de Abril de 2013
 
 Essa apresentação foi feita utilizando o sistema shower disponivel em https://github.com/codepo8/shower.
 
