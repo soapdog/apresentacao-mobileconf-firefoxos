@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1378c3-16ff-4454-9d4f-842781e9cf61" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firefoxos-riojs.html" afterPath="$PROJECT_DIR$/firefoxos-riojs.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/firefoxos-riojs.html" afterPath="$PROJECT_DIR$/firefoxos-mobileconf.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/B2G.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/B2G.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/b2g-gecko.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/b2g-gecko.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/devtools-console.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/devtools-console.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/devtools-inspect.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/devtools-inspect.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/devtools-responsiveview.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/devtools-responsiveview.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/devtools-simulator.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/devtools-simulator.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/firefox-marketplace-dev-hub_logo-wordmark_RGB.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/firefox-marketplace-dev-hub_logo-wordmark_RGB.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/firefox-marketplace_logo-wordmark_RGB.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/firefox-marketplace_logo-wordmark_RGB.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/firefox-os_logo-wordmark_RGB-vertical-300dpi.jpg" afterPath="$PROJECT_DIR$/pictures/mobileconf/firefox-os_logo-wordmark_RGB-vertical-300dpi.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/fox-looking-left.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/fox-looking-left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/giantfox-back.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/giantfox-back.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/home-screen.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/home-screen.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/keon-in-hand.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/keon-in-hand.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/shots/2013-02-08-23-40-10.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/shots/2013-02-08-23-40-10.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/shots/2013-02-08-23-41-04.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/shots/2013-02-08-23-41-04.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/shots/2013-03-06-18-14-48.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/shots/2013-03-06-18-14-48.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/shots/2013-03-08-16-28-00.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/shots/2013-03-08-16-28-00.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/shots/2013-03-08-16-29-20.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/shots/2013-03-08-16-29-20.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/shots/2013-03-08-16-29-41.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/shots/2013-03-08-16-29-41.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/shots/2013-03-08-16-30-18.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/shots/2013-03-08-16-30-18.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/shots/2013-03-08-16-30-46.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/shots/2013-03-08-16-30-46.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/shots/2013-03-08-16-32-34.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/shots/2013-03-08-16-32-34.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/shots/2013-03-08-16-32-50.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/shots/2013-03-08-16-32-50.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/shots/2013-03-08-16-33-24.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/shots/2013-03-08-16-33-24.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pictures/riojs/shots/pick-image.png" afterPath="$PROJECT_DIR$/pictures/mobileconf/shots/pick-image.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mozilla-presentation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1364212532638" ignored="false" />
+    <file path="/Dummy.txt" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365090743580" ignored="false" />
     <file path="/mozilla-mission.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362756598204" ignored="false" />
     <file path="/dummy.xml" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362833427060" ignored="false" />
     <file path="/firefoxos-riojs.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1364212552401" ignored="false" />
@@ -27,10 +53,12 @@
     <file path="$PROJECT_DIR$/../riojs-exemplo/build/app.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835892951" ignored="false" />
     <file path="$PROJECT_DIR$/../riojs-exemplo/deploy/riojs-exemplo/build/app.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835892951" ignored="false" />
     <file path="$PROJECT_DIR$/../riojs-exemplo/index.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836247198" ignored="false" />
-    <file path="/index.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836247198" ignored="false" />
+    <file path="/index.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365099449589" ignored="false" />
     <file path="/debug.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836257639" ignored="false" />
     <file path="$PROJECT_DIR$/../riojs-exemplo/debug.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836257639" ignored="false" />
     <file path="/README.md" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362927437147" ignored="false" />
+    <file path="/firefoxos-mobileconf.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365092166808" ignored="false" />
+    <file path="$PROJECT_DIR$/../mobileconf-exemplos/instalacao/index.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365100206265" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +78,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="firefoxos-riojs.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
+      <file leaf-file-name="firefoxos-mobileconf.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="296" column="79" selection-start="9533" selection-end="9533" vertical-scroll-proportion="0.33233082">
+            <state line="5" column="63" selection-start="105" selection-end="193" vertical-scroll-proportion="0.12733446">
               <folding />
             </state>
           </provider>
@@ -89,14 +117,15 @@
         <option value="$PROJECT_DIR$/mozilla-mission.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/firefoxos-riojs.html" />
+        <option value="$PROJECT_DIR$/firefoxos-mobileconf.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1600" />
-    <option name="height" value="874" />
+    <option name="width" value="1280" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -124,7 +153,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,23 +167,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="riojs-apresentacao" />
+              <option name="myItemId" value="mobileconf-apresentacao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mozilla-presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobileconf-apresentacao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pictures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobileconf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mozilla-presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobileconf-apresentacao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pictures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobileconf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shots" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../riojs-exemplo" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -173,6 +242,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pictures/mobileconf" />
+      <recent name="$PROJECT_DIR$/pictures/mobileconf/shots" />
       <recent name="$PROJECT_DIR$/pictures/riojs" />
     </key>
   </component>
@@ -204,14 +275,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1600" height="874" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16344917" sideWeight="0.9960212" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24149108" sideWeight="0.9960212" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -288,7 +359,21 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
+    <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="296" column="79" selection-start="9533" selection-end="9533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="0" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0">
           <folding />
@@ -302,35 +387,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
+    <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="26" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
+    <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="26" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
+    <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="26" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
+    <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
+    <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="20" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
           <folding />
@@ -349,9 +434,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firefoxos-riojs.html">
+    <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="296" column="79" selection-start="9533" selection-end="9533" vertical-scroll-proportion="0.33233082">
+        <state line="5" column="63" selection-start="105" selection-end="193" vertical-scroll-proportion="0.12733446">
           <folding />
         </state>
       </provider>

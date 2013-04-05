@@ -105,14 +105,14 @@
         <h2>Firefox OS para desenvolvedores</h2>
       </header>
       <figure class="frame middle swing">
-        <img src="pictures/riojs/keon-in-hand.png"  alt="keon">
+        <img src="pictures/mobileconf/keon-in-hand.png"  alt="keon">
        </figure>
         <small class="credits">
         <a href="http://arstechnica.com/gadgets/2013/01/firefox-os-gets-dedicated-developer-hardware/">
           Foto via Ars Technica
         </a>
       </small>
-      <footer class="byline">Andre Alves Garzia, Comunidade Mozilla Brasil, Rio.JS, 9 de Março 2013</footer>
+      <footer class="byline">Andre Alves Garzia, Comunidade Mozilla Brasil, MobileConf 2013, 5 de Abril 2013</footer>
     <footer class="notes">
     </footer>
     </section>
@@ -167,7 +167,7 @@
       <header>
         <h2>O Que é o Firefox OS?</h2>
       </header>
-      <img src="pictures/riojs/b2g-gecko.png" class="right" />
+      <img src="pictures/mobileconf/b2g-gecko.png" class="right" />
       <p>O Firefox OS é um <strong>novo sistema operacional móvel</strong> desenvolvido pelo projeto Boot to Gecko (B2G) da
         Mozilla. Ele usa o Kernel do Linux e inicializa em um sistema baseado no Gecko que permite
         que os usuários utilizem <strong>apps inteiramente desenvolvidos utilizando HTML, Javascript e outras APIs da Web Aberta</strong>.</p>
@@ -199,48 +199,15 @@
           </footer>
       </section>
   </div></div>
-    
-    <div id="demo1" class="slide"><div>
-        <section>
-        <header>
-            <h2>Desenvolvendo para Firefox OS</h2>
-        </header>
-            <figure class="middle">
-            <img src="pictures/riojs/giantfox-back.png" alt="Home" />
-            </figure>
-        </section>  
-    </div></div>
 
   <div id="devtools" class="slide"><div>
       <section>
           <header>
               <h2>Ferramentas do Desenvolvedor</h2>
           </header>
-          <img src="pictures/riojs/devtools-inspect.png" class="middle" style="height: 80%;"/>
+          <img src="pictures/mobileconf/mobileconf.png" class="middle" style="height: 80%;"/>
           <footer class="notes">
               Mostrar as ferramentas de desenvolvimento. Principalmente o console e o responsive web view.
-          </footer>
-      </section>
-  </div></div>
-
-  <div id="devtools-responsive-view" class="slide"><div>
-      <section>
-          <header>
-              <h2>Responsive View</h2>
-          </header>
-          <img src="pictures/riojs/devtools-responsiveview.png" class="middle" style="height: 80%;"/>
-          <footer class="notes">
-          </footer>
-      </section>
-  </div></div>
-
-  <div id="devtools-js-console" class="slide"><div>
-      <section>
-          <header>
-              <h2>Javascript Console</h2>
-          </header>
-          <img src="pictures/riojs/devtools-console.png" class="middle" style="height: 80%;"/>
-          <footer class="notes">
           </footer>
       </section>
   </div></div>
@@ -250,10 +217,10 @@
           <header>
               <h2>Firefox OS Simulator</h2>
           </header>
-          <img src="pictures/riojs/B2G.png" class="middle" style="height: 80%;"/>
-          <p class="demourl"><a href="https://hacks.mozilla.org/2012/12/firefox-os-simulator-1-0-is-here/">Firefox OS Simulator 1.0</a></p>
+          <img src="pictures/mobileconf/B2G.png" class="middle" style="height: 80%;"/>
+          <p class="demourl"><a href="https://hacks.mozilla.org/2013/03/firefox-os-simulator-previewing-version-3-0/">Firefox OS Simulator 3.0</a></p>
           <footer class="notes">
-              O simulador ja esta disponível e é tudo que você precisa junto com as dev tools para criar apps.
+              O simulador esta disponível e é tudo que você precisa junto com as dev tools para criar apps.
           </footer>
       </section>
   </div></div>
@@ -283,6 +250,29 @@
           <footer class="notes">
               Você define um arquivo de manifesto que descreve o seu app e diz para o mundo quais icones usar,
               qual acesso ele precisa e a partir de quais servidores ele pode ser instalado
+          </footer>
+      </section>
+  </div></div>
+
+  <div id="installapp" class="slide"><div>
+      <section>
+          <header>
+              <h2>Instalando apps a partir da web</h2>
+          </header>
+        <pre>
+        <code>var installapp = navigator.mozApps.install(manifestURL);</code>
+        <code>installapp.onsuccess = function(data) {</code>
+        <code>  // App foi instalada</code>
+        <code>};</code>
+        <code>installapp.onerror = function() {</code>
+        <code> // App não foi instalada, informações em </code>
+        <code> // installapp.error.name</code>
+        <code>};</code>
+        </pre>
+          <footer class="notes">
+              Um modo bastante simples de tornar seu app instalável em um aparelho com Firefox OS é utilizando o método install().
+              Isso significa que você não precisa esperar pela verificação e listagem do marketplace. Voce pode transformar
+              qualquer site em uma app bastando para isso que o usuário abra a página.
           </footer>
       </section>
   </div></div>
@@ -340,54 +330,6 @@
       </section>
   </div></div>
 
-  <div id="installapp" class="slide"><div>
-      <section>
-          <header>
-              <h2>Instalando apps a partir da web</h2>
-          </header>
-        <pre>
-        <code>var installapp = navigator.mozApps.install(manifestURL);</code>
-        <code>installapp.onsuccess = function(data) {</code>
-        <code>  // App foi instalada</code>
-        <code>};</code>
-        <code>installapp.onerror = function() {</code>
-        <code> // App não foi instalada, informações em </code>
-        <code> // installapp.error.name</code>
-        <code>};</code>
-        </pre>
-          <footer class="notes">
-              Um modo bastante simples de tornar seu app instalável em um aparelho com Firefox OS é utilizando o método install().
-              Isso significa que você não precisa esperar pela verificação e listagem do marketplace. Voce pode transformar
-              qualquer site em uma app bastando para isso que o usuário abra a página.
-          </footer>
-      </section>
-  </div></div>
-
-  <div id="battery" class="slide"><div>
-      <section>
-          <header>
-              <h2>Battery API</h2>
-          </header>
-        <pre>
-          <code>var b = navigator.battery;</code>
-          <code>if (b) {</code>
-          <code>  var level=Math.round(battery.level * 100) + "%",</code>
-          <code>      charging=(battery.charging) ? "" : "not ",</code>
-          <code>      chargeTime=parseInt(battery.chargingTime / 60, 10),</code>
-          <code>      dischargeTime=parseInt(battery.dischargingTime/60,10);</code>
-          <code>  b.addEventListener("levelchange", show);</code>
-          <code>  b.addEventListener("chargingchange", show);</code>
-          <code>  b.addEventListener("chargingtimechange", show);</code>
-          <code>  b.addEventListener("dischargingtimechange", show);</code>
-          <code>}</code>
-        </pre>
-          <footer class="notes">
-              Utilizando a Battery API você pode notificar o usuário quando o nível de energia esta baixo e avisar por exemplo
-              que downloads longos poderão não funcionar.
-          </footer>
-      </section>
-  </div></div>
-
   <div id="webapilistprivileged" class="slide"><div>
       <section>
           <header>
@@ -407,29 +349,6 @@
               Apps privilegiadas podem fazer mais coisas que apps hospedadas pois o servidor é certificado e conhecido de antemão.
               Por exemplo, você pode realizar chamadas para outros (que suportem CORS) servidores via XHR ou armazenar/recuperar
               conteúdo do aparelho fora do indexedDB.
-          </footer>
-      </section>
-  </div></div>
-
-  <div id="contactsapi" class="slide"><div>
-      <section>
-          <header>
-              <h2>Contacts API</h2>
-          </header>
-        <pre>
-          <code>var contact = new mozContact();</code>
-          <code>contact.init({name: "Odin"});</code>
-          <code>var request = navigator.mozContacts.save(contact);</code>
-          <code>request.onsuccess = function() {</code>
-          <code>  // contato salvo com sucesso</code>
-          <code>};</code>
-          <code>request.onerror = function() {</code>
-          <code>  // não foi possível salvar o contato</code>
-          <code>};</code>
-        </pre>
-          <footer class="notes">
-              Para um app privilegiado é fácil criar um novo contato.
-              Isso permite que você sincronize os contatos em vários aparelhos por exemplo.
           </footer>
       </section>
   </div></div>
@@ -465,6 +384,31 @@
       </section>
   </div></div>
 
+  <div id="contactsapi" class="slide"><div>
+      <section>
+          <header>
+              <h2>Contacts API</h2>
+          </header>
+        <pre>
+          <code>var contact = new mozContact();</code>
+          <code>contact.init({name: "Odin"});</code>
+          <code>var request = navigator.mozContacts.save(contact);</code>
+          <code>request.onsuccess = function() {</code>
+          <code>  // contato salvo com sucesso</code>
+          <code>};</code>
+          <code>request.onerror = function() {</code>
+          <code>  // não foi possível salvar o contato</code>
+          <code>};</code>
+        </pre>
+          <footer class="notes">
+              Para um app privilegiado é fácil criar um novo contato.
+              Isso permite que você sincronize os contatos em vários aparelhos por exemplo.
+          </footer>
+      </section>
+  </div></div>
+
+
+
   <div id="user" class="slide"><div>
       <section>
           <header>
@@ -497,7 +441,7 @@
           <header>
               <h2 style="text-align:center">Dando controle para o usuário</h2>
           </header>
-          <img src="pictures/riojs/shots/pick-image.png" alt="Pick activity" class="middle shadow">
+          <img src="pictures/mobileconf/shots/pick-image.png" alt="Pick activity" class="middle shadow">
           <footer class="notes">
               Quando iniciamos uma Web Activity, o usuário recebe um aviso para autorizá-la.
               Por exemplo a atividade "pick" pode pedir imagens da pasta de images, da pasta de papéis de parede ou tirar uma nova foto.
@@ -573,23 +517,6 @@
       </section>
   </div></div>
 
-  <div id="drawing" class="slide"><div>
-    <section>
-      <header>
-        <h2>E agora?</h2>
-      </header>
-      <ul>
-        <li>Use o Firefox Beta: <a href="http://mozilla.org/beta">mozilla.org/beta</a></li>
-          <li>Baixe o Simulador do Firefox OS: <a href="https://hacks.mozilla.org/2012/12/firefox-os-simulator-1-0-is-here/">Firefox OS 1.0 Simulator</a></li>
-          <li>Envie bugs em <a href="http://bugzilla.mozilla.org">bugzilla.mozilla.org</a></li>
-        <li>Teste as ferramentas de desenvolvimento</li>
-        <li>Use (e contribua!) para a <a href="http://developer.mozilla.org">Mozilla Developer Network</a></li>
-      </ul>
-      <footer class="notes">
-      </footer>
-    </section>
-  </div></div>
-
   <div id="qanda" class="slide"><div>
     <section>
       <header>
@@ -602,8 +529,8 @@
         <li><a href="https://wiki.mozilla.org/Apps">https://wiki.mozilla.org/Apps</a></li>
         <li><a href="https://marketplace.firefox.com/pt-BR/">https://marketplace.firefox.com/pt-BR/</a></li>
         <li><a href="https://marketplace.firefox.org/pt-BR/developers">https://marketplace.firefox.org/pt-BR/developers</a></li>
-        <li><a href="http://www.mozilla.org/b2g/">http://www.mozilla.org/b2g/</a></li>
-        <li><a href="http://blog.mozilla.org/beyond-the-code/">http://blog.mozilla.org/beyond-the-code/</a></li>
+          <li>Baixe o Simulador do Firefox OS: <a href="https://hacks.mozilla.org/2013/03/firefox-os-simulator-previewing-version-3-0/">Firefox OS 3.0 Simulator</a></li>
+         <li>Use (e contribua!) para a <a href="http://developer.mozilla.org">Mozilla Developer Network</a></li>
         <li><a href="http://geeksphone.com/pt-br/">http://geeksphone.com/pt-br/</a> </li>
       </ul>
       <footer class="notes">
@@ -617,7 +544,7 @@
         <h2>Obrigado</h2>
       </header>
         <figure class="frame middle swing">
-        <img src="pictures/mozillaoverview/redpanda.jpg" 
+        <img src="pictures/mobileconf/red-panda.jpg"
              alt="Red panda (Firefox)">
         </figure>
       <ul class="oneline demourl">
