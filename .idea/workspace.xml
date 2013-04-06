@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1378c3-16ff-4454-9d4f-842781e9cf61" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firefoxos-mobileconf.html" afterPath="$PROJECT_DIR$/firefoxos-mobileconf.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mozilla-presentation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365090743580" ignored="false" />
+    <file path="/Dummy.txt" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365264074485" ignored="false" />
     <file path="/mozilla-mission.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362756598204" ignored="false" />
-    <file path="/dummy.xml" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362833427060" ignored="false" />
+    <file path="/dummy.xml" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365172254168" ignored="false" />
     <file path="/firefoxos-riojs.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1364212552401" ignored="false" />
     <file path="/a.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362833459208" ignored="false" />
     <file path="$PROJECT_DIR$/../riojs-exemplo/.gitignore" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362786266136" ignored="false" />
@@ -22,7 +23,7 @@
     <file path="$PROJECT_DIR$/../riojs-exemplo/source/App.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835642606" ignored="false" />
     <file path="/App.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835636205" ignored="false" />
     <file path="$PROJECT_DIR$/../riojs-exemplo/manifest.webapp" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835436603" ignored="false" />
-    <file path="/manifest.webapp" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835420380" ignored="false" />
+    <file path="/manifest.webapp" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365187937296" ignored="false" />
     <file path="$PROJECT_DIR$/../riojs-exemplo/source/package.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835614908" ignored="false" />
     <file path="$PROJECT_DIR$/../riojs-exemplo/build/app.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835892951" ignored="false" />
     <file path="$PROJECT_DIR$/../riojs-exemplo/deploy/riojs-exemplo/build/app.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362835892951" ignored="false" />
@@ -31,8 +32,10 @@
     <file path="/debug.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836257639" ignored="false" />
     <file path="$PROJECT_DIR$/../riojs-exemplo/debug.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1362836257639" ignored="false" />
     <file path="/README.md" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365124325601" ignored="false" />
-    <file path="/firefoxos-mobileconf.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365092166808" ignored="false" />
+    <file path="/firefoxos-mobileconf.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365172716972" ignored="false" />
     <file path="$PROJECT_DIR$/../mobileconf-exemplos/instalacao/index.html" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365124022527" ignored="false" />
+    <file path="$USER_HOME$/prog/piefox/js/app.js" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365172053061" ignored="false" />
+    <file path="$USER_HOME$/prog/memo/manifest.webapp" changelist="2b1378c3-16ff-4454-9d4f-842781e9cf61" time="1365191525361" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
       <file leaf-file-name="firefoxos-mobileconf.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="63" selection-start="105" selection-end="193" vertical-scroll-proportion="-3.125">
+            <state line="541" column="20" selection-start="20024" selection-end="20024" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,8 +93,8 @@
       <list>
         <option value="$PROJECT_DIR$/mozilla-mission.html" />
         <option value="$PROJECT_DIR$/firefoxos-riojs.html" />
-        <option value="$PROJECT_DIR$/firefoxos-mobileconf.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/firefoxos-mobileconf.html" />
       </list>
     </option>
   </component>
@@ -127,6 +130,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,7 +191,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,14 +252,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24149108" sideWeight="0.9960212" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31523502" sideWeight="0.9960212" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -335,6 +338,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="541" column="20" selection-start="20024" selection-end="20024" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="61" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="63" selection-start="105" selection-end="193" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="61" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="296" column="79" selection-start="9533" selection-end="9533" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -403,7 +434,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firefoxos-mobileconf.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="63" selection-start="105" selection-end="193" vertical-scroll-proportion="-3.125">
+        <state line="541" column="20" selection-start="20024" selection-end="20024" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
